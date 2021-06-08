@@ -15,6 +15,7 @@ Project is created with:
 * MySql
 * .NET Core
 * React
+* Built in Visual Studio Code
 
 ## Setup
 
