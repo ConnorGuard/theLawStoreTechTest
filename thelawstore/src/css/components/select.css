@@ -1,0 +1,9 @@
+.basic-multi-select{
+    width:100%;
+}
+
+@media(max-width:750px){
+    .basic-multi-select{
+        width: 100%
+    }
+}
