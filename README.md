@@ -4,7 +4,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Usage](#Usage)
+* [Usage](#API)
 * [Mock Data](#Data)
 
 ## General info
@@ -56,8 +56,7 @@ $ cd JobSearcherFrontend
 $ npm install
 $ npm start
 ```
-### Usage
-####API
+###API
 http://localhost:5000/jobs/search
 * HttpGet
 Gets all Jobs in database.
