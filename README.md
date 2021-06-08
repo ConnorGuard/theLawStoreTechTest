@@ -45,17 +45,17 @@ TEST CONNECTION:
 ### Backend
 New Terminal
 ```
-$ cd JobSearcher/JobSearch
-$ dotnet build 
-$ dotnet run 
+cd JobSearcher/JobSearch
+dotnet build 
+dotnet run 
 ```
 
 ### Frontend
 New Terminal
 ```
-$ cd JobSearcherFrontend 
-$ npm install
-$ npm start
+cd JobSearcherFrontend 
+npm install
+npm start
 ```
 
 ### API
