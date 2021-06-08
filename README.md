@@ -65,6 +65,8 @@ http://localhost:5000/jobs/search
 Gets all Jobs in database.
 * HttpGet("{id}")
 Gets job by id.
+* HttpPost
+Inserts new job.
 * HttpPut("{id}")
 Updates job by id.
 * HttpDelete("{id}")
