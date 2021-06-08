@@ -4,6 +4,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [Usage](#Usage)
 * [Mock Data](#Data)
 
 ## General info
@@ -55,6 +56,8 @@ $ cd JobSearcherFrontend
 $ npm install
 $ npm start
 ```
+### Usage
+
 
 ### Data
 ```
