@@ -4,6 +4,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [Mock Data](#Mock Data)
 
 ## General info
 This project is simple Lorem ipsum dolor generator.
