@@ -23,7 +23,7 @@ Project is created with:
 CREATE USER:
 	Login as root user
 	Go to Administration
-	Go to Users and Privilages
+	Go to Users and Privileges
 	Add Account:
 		Login Name: thelawstore
 		Password: password12!
