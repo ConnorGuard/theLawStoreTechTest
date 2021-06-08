@@ -56,8 +56,11 @@ $ cd JobSearcherFrontend
 $ npm install
 $ npm start
 ```
+
 ###API
+
 http://localhost:5000/jobs/search
+
 * HttpGet
 Gets all Jobs in database.
 * HttpGet("{id}")
