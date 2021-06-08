@@ -1,13 +1,13 @@
 # theLawStoreTechTest
 
 ## Table of contents
-* [General info](#general-info)
+* [Info](#Info)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [API](#API)
 * [Mock Data](#Data)
 
-## General info
+## Info
 This project is a fullstack job finding web application, for the law store developer test.
 	
 ## Technologies
