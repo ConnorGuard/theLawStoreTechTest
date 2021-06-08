@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J/PK7c+p6idqLKa6dL8cCyxsWIVa6fpnLeI9wUe9yCdwmZI5w8q4SuTElsNC3R7C41PtaVN8lHOcEE5o6nuZfw==",
+  "dgSpecHash": "tCa5ITtYza3FiCc2/Jcj4zeSdMv8IHNvCLZ3SUIEuchPV446bY3ZJhS34S+XksxX4pXCcOSRNJD6Gs5oXRJldQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\connor\\JobSearcher\\JobSearch\\lawStoreBackend.csproj",
+  "projectFilePath": "C:\\Users\\connor\\Documents\\GitHub\\theLawStoreTechTest\\JobSearcher\\JobSearch\\lawStoreBackend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\connor\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\connor\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

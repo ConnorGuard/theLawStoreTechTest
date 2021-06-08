@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\connor\\JobSearcher\\JobSearch\\lawStoreBackend.csproj": {}
+    "C:\\Users\\connor\\Documents\\GitHub\\theLawStoreTechTest\\JobSearcher\\JobSearch\\lawStoreBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\connor\\JobSearcher\\JobSearch\\lawStoreBackend.csproj": {
+    "C:\\Users\\connor\\Documents\\GitHub\\theLawStoreTechTest\\JobSearcher\\JobSearch\\lawStoreBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\connor\\JobSearcher\\JobSearch\\lawStoreBackend.csproj",
+        "projectUniqueName": "C:\\Users\\connor\\Documents\\GitHub\\theLawStoreTechTest\\JobSearcher\\JobSearch\\lawStoreBackend.csproj",
         "projectName": "lawStoreBackend",
-        "projectPath": "C:\\Users\\connor\\JobSearcher\\JobSearch\\lawStoreBackend.csproj",
+        "projectPath": "C:\\Users\\connor\\Documents\\GitHub\\theLawStoreTechTest\\JobSearcher\\JobSearch\\lawStoreBackend.csproj",
         "packagesPath": "C:\\Users\\connor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\connor\\JobSearcher\\JobSearch\\obj\\",
+        "outputPath": "C:\\Users\\connor\\Documents\\GitHub\\theLawStoreTechTest\\JobSearcher\\JobSearch\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
