@@ -44,7 +44,7 @@ TEST CONNECTION:
 ### Backend
 New Terminal
 ```
-$  cd JobSearcher/JobSearch
+$ cd JobSearcher/JobSearch
 $ dotnet build 
 $ dotnet run 
 ```
