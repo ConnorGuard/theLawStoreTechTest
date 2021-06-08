@@ -4,7 +4,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Usage](#API)
+* [API](#API)
 * [Mock Data](#Data)
 
 ## General info
@@ -57,7 +57,7 @@ $ npm install
 $ npm start
 ```
 
-###API
+### API
 
 http://localhost:5000/jobs/search
 
