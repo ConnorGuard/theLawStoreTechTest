@@ -8,7 +8,7 @@
 * [Mock Data](#Data)
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
+This project is a fullstack job finding web application, for the law store developer test.
 	
 ## Technologies
 Project is created with:
