@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using JobSearcher.Models;
 
+//Implemetation of the Job Search interface
 namespace JobSearcher.Data{
     public class SqlJobSearchRepo : IJobSearchRepo
     {

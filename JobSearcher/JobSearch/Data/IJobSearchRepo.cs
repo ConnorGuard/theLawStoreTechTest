@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using JobSearcher.Models;
 
+//API Interface
 namespace JobSearcher.Data
 {
     public interface IJobSearchRepo
