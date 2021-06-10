@@ -9,6 +9,7 @@ import GetJobs from '../requests/getJobs';
 import Button from 'react-bootstrap/Button';
 
 function Vacancies() {
+  const [jobType, setJobType] = useState([]);
   const [jobs, setjobs] = useState([]);
   const [toggled, setToggled] = useState(true);
   const [mobile, setMobile] = useState(false);
@@ -38,28 +39,40 @@ function Vacancies() {
     updateSize();
     return () => window.removeEventListener('resize', updateSize);
   }, []);
+  
+//Maps data from the API to card components
+//client side filtering
+function Jobs() {
+  return (<div className={(toggled)? "grid" : "list"}>
+    {
+    //map job data
+    jobs.map((job, i)=>{
+      let getJob = false;
+      //check against options
+      jobType.forEach(opt =>{
+        if(job.jobType ==  opt.value){
+          getJob = true;
+        }
+      });
+      //return all when nothing is selected
+      getJob = (jobType.length>0)? getJob : true;
+      return((getJob)?<Card job = {job} i = {i} toggled = {toggled}/> : null);
+      })}
+  </div>);
+}
 
   return (
     <div className="vacancies">
+
       <h2 className="title">Open Vacancies</h2>
 
       <div className = "toolBar">
         {(mobile) ? null : <Toggle toggled = {toggled} setToggled = {setToggled}/>}
-        <Select />
+        <Select setJobType = {setJobType}/>
       </div>
 
       <Jobs jobs={jobs} toggled = {toggled}/>
     </div>);
-}
-
-
-
-//Displays the jobs
-//Maps data from the API to card components
-function Jobs(props) {
-  return (<div className={(props.toggled)? "grid" : "list"}>
-    {props.jobs.map((job, i)=>{return(<Card job = {job} i = {i} toggled = {props.toggled}/>)})}
-  </div>);
 }
 
 //Toggles between List and Grid view

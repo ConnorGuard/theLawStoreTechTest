@@ -2,6 +2,7 @@ import React, {useEffect, useState } from 'react';
 import NewJob from '../components/newJob';
 import GetJobs from '../requests/getJobs';
 
+//Potentially an expansion of this project...
 function Admin() {
   const [jobs, setjobs] = useState([]);
 
