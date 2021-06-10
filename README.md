@@ -63,10 +63,10 @@ npm start
 http://localhost:5000/jobs/search
 
 * HttpGet, gets all Jobs in database.
-* HttpGet("{id}"), gets job by id.
+* HttpGet/:id, gets job by id.
 * HttpPost, inserts new job.
-* HttpPut("{id}"), updates job by id.
-* HttpDelete("{id}"), deletes job by id.
+* HttpPut/:id, updates job by id.
+* HttpDelete/:id, deletes job by id.
 
 ### Data
 ```
