@@ -47,6 +47,7 @@ New Terminal
 ```
 cd JobSearcher/JobSearch
 dotnet build 
+dotnet ef database update
 dotnet run 
 ```
 
